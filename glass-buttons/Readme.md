@@ -1,4 +1,4 @@
-# Glass Buttons
+# Glass Buttons - Beta V0.1.1
 
 ## Author: **Chris Benjamin**
 

@@ -9,7 +9,7 @@
 */
 
 import React, {useState, useEffect} from 'react';
-import './button.css'
+import './index.css'
 
 const GlassButton = (props) => {
     const [color, setColor] = useState(null)

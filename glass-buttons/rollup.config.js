@@ -28,7 +28,7 @@ MODE.map((m) => {
         output: {
             //the name of package
             name: 'glass-buttons',
-            file: `dist/index.${m.fomart}.js`,
+            file: `/example/dist/index.${m.fomart}.js`,
             format: m.fomart,
             exports: 'auto'
 
@@ -44,7 +44,7 @@ MODE.map((m) => {
             }),
             // this adds sourcemaps
             sourcemaps(),
-            // this adds support fors tyles
+            // this adds support for styles
             styles({
                 postcss: {
                     plugins: [
