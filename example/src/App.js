@@ -29,6 +29,7 @@ const App = () => {
       <GlassButton variant="primary" name="Primary" rounding="rounded-small"/> {' '}
       <GlassButton variant="primary" name="Primary" rounding="rounded-large"/> {' '}
       <GlassButton variant="primary" name="Primary" rounding="rounded-xlarge"/> {' '}
+      <GlassButton variant="primary" name="P" rounding="rounded-full"/> {' '}
 
      </div>
   )
