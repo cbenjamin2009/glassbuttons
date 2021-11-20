@@ -13,9 +13,23 @@ const App = () => {
     
      <GlassButton variant="primary" name="Primary"/> {' '}
      <GlassButton variant="secondary" name="Secondary"/> {' '}
+     <GlassButton variant="danger" name="Danger"/> {' '}
      <GlassButton variant="success" name="Success"/> {' '}
      <GlassButton variant="info" name="info"/> {' '}
+     <GlassButton variant="light" name="light"/> {' '}
+     <GlassButton variant="dark" name="dark"/> {' '}
+     <br />
+     <br />
+     <GlassButton variant="warning" name="warning"/> {' '}
+     <GlassButton variant="link" name="link" rounding="rounded-full"/> {' '}
      <GlassButton name="Default"/>
+      <br />
+      <br />
+      <GlassButton variant="primary" name="Primary" rounding="rounded-none"/> {' '}
+      <GlassButton variant="primary" name="Primary" rounding="rounded-small"/> {' '}
+      <GlassButton variant="primary" name="Primary" rounding="rounded-large"/> {' '}
+      <GlassButton variant="primary" name="Primary" rounding="rounded-xlarge"/> {' '}
+
      </div>
   )
 }

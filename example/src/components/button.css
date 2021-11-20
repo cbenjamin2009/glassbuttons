@@ -13,71 +13,126 @@
 .buttonComponentprimary {
     background: rgba( 0, 119, 255, 0.1 );
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 .buttonComponentprimary:hover {
     background: rgba( 0, 119, 255, 0.8 );
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 
 .buttonComponentsecondary {
     background: rgba( 255, 0, 98, 0.1 );
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 
 .buttonComponentsecondary:hover {
     background: rgba( 255, 0, 98, 0.8);
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 
 .buttonComponentinfo {
-    background: rgba( 148, 147, 147, 0.1 );
+    background: rgba(2, 255, 234, 0.1);
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 
-.buttonComponentinfo {
-    background: rgba( 148, 147, 147, 0.8 );
+.buttonComponentinfo:hover {
+    background: rgba(2, 255, 234, 0.9);
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
+
+}
+
+.buttonComponentdanger {
+    background: rgba(189, 7, 7, 0.1);
+    backdrop-filter: blur( 2px );
+
+}
+
+.buttonComponentdanger:hover {
+    background: rgba(189, 7, 7, 0.8);
+    backdrop-filter: blur( 2px );
 
 }
 
 .buttonComponentsuccess {
     background: rgba( 0, 255, 14, 0.1);
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 
 .buttonComponentsuccess:hover {
     background: rgba( 0, 255, 14, 0.8);
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
 
 }
 
-.buttonComponentdefault {
-    background: rgba( 255, 255, 255, 0.1 );
+/* ////////////////////////////////////// */
+
+.buttonComponentwarning {
+    background: rgba(255, 238, 0, 0.2);
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
+
+}
+
+.buttonComponentwarning:hover {
+    background: rgba(255, 238, 0, 0.8);
+    backdrop-filter: blur( 2px );
+
+}
+
+.buttonComponentlight {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur( 2px );
+
+}
+
+.buttonComponentlight:hover {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur( 2px );
+
+}
+
+.buttonComponentdark{
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur( 2px );
+    color: whitesmoke;
+}
+
+.buttonComponentdark:hover {
+    background: rgba(10, 10, 10, 0.1);
+    backdrop-filter: blur( 2px );
+
+}
+
+.buttonComponentlink{
+    background: rgba(2, 183, 255, 0.2);
+    backdrop-filter: blur( 2px );
+
+}
+
+.buttonComponentlink:hover {
+    background: rgba(2, 183, 255, 0.8);
+    backdrop-filter: blur( 2px );
+
+}
+
+
+
+
+.buttonComponentdefault {
+    background: rgba(255, 255, 255, 0);
+    backdrop-filter: blur( 2px );
     font-size: inherit;
     letter-spacing: 2px;
     cursor: pointer;
 }
 
 .buttonComponentdefault:hover {
-    background: rgba( 255, 255, 255, 0.8 );
+    background: rgba( 255, 255, 255, 0.5 );
     backdrop-filter: blur( 2px );
-    border-radius: 15px;
     font-size: inherit;
     letter-spacing: 2px;
     cursor: pointer;

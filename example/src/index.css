@@ -6,7 +6,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('./background.jpg');
+  /* background: url('./background.jpg');
+   */
+   background-color: #a0a0a0;
+  ;
   background-position: center;
   background-size: cover;
   color: whitesmoke;
