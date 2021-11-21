@@ -1,4 +1,4 @@
-# glassbuttons
+# glass-buttons
 
 > A set of beautiful glassmorphism buttons for any react app
 
