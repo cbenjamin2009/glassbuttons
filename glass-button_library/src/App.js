@@ -7,10 +7,24 @@ import './App.css'
 import GlassButton from './components/button'
 
 const App = () => {
+  function handleClick() {
+
+  }
   return (
     <div className='example'>
-     <ExampleComponent text="GlassButtons 😄" />
-    
+        <ExampleComponent text="GlassButtons 😄" />
+      <GlassButton variant="primary" name="Primary" rounding="rounded-none"/> {' '}
+      <GlassButton variant="secondary" name="secondary" rounding="rounded-small"/>{' '}
+      <GlassButton variant="danger" name="danger" rounding="rounded-large"/> {' '}
+      <GlassButton variant="success" name="success" rounding="rounded-xlarge"/> {' '}
+      <GlassButton variant="info" name="i" rounding="rounded-full"/> {' '}
+      <br />
+     <br />
+     <br />
+     <br />
+     <br />
+     <br />
+   
      <GlassButton variant="primary" name="Primary"/> {' '}
      <GlassButton variant="secondary" name="Secondary"/> {' '}
      <GlassButton variant="danger" name="Danger"/> {' '}
@@ -93,6 +107,8 @@ const App = () => {
       <GlassButton variant="Default" name="Default" rounding="rounded-large"/> {' '}
       <GlassButton variant="Default" name="Default" rounding="rounded-xlarge"/> {' '}
       <GlassButton variant="Default" name="D" rounding="rounded-full"/> {' '}
+      <br />
+      <br />
      </div>
   )
 }
